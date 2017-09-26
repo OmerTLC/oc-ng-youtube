@@ -1,25 +1,24 @@
 
 
 <div class="url-content">
-  <h1>{{OcContent.title}} </h1>
-  <h3>Content that conclude the word -  {{OcContent.tweetQuery}} </h3>
 
-
-
+  <h3>{{OcContent.youtubeQuery}} </h3>
 </div>
 <ul>
-  <li ng-repeat="tweet in OcContent.tweets" class="tweetBox">
+  <li ng-repeat="youtubeVideo in OcContent.youtubes" class="youtubeBox">
+
+      <div class="youtubeVideo">
+        <img class="youtubeVideoImg" ng-src="{{youtube.user.profile_image_url}}" alt="">
+         {{youtubeVideo.video}}
+       </div>
 
 
-      <div class="tweetOwner"> <img class="tweetOwnerImg" ng-src="{{tweet.user.profile_image_url}}" alt=""> user name: {{tweet.user.name}}</div>
-
-
-    <div class="tweetText">
-         {{tweet.text}}
+    <div class="youtubeViews">
+         {{youtubeVideo.views}}
     </div>
 
-    <div class="tweetDate">
-         {{tweet.created_at}}
+    <div class="youtubeRating">
+         {{youtubeVideo.Rating}}
     </div>
 
   </li>

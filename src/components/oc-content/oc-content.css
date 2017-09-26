@@ -1,6 +1,6 @@
 
 
-.tweetBox {
+.youtubeBox {
   width: 300px;
      border: 5px solid green;
      padding: 10px;
@@ -9,19 +9,21 @@
      display: block;
 }
 
-.tweetOwner {
+.youtubeVideo {
   background-color: lightblue;
 }
-.tweetDate {
-  background-color: lightblue;
-  text-align: right;
-}
-.tweetOwnerImg {
+.youtubeVideoImg {
   background-color: lightblue;
   float:left;
   padding: 5px;
 }
-.tweetText {
+
+.youtubeRating {
+  background-color: lightblue;
+  text-align: right;
+}
+
+.youtubeViews {
   background-color: lightblue;
   font-size: 10px;
 

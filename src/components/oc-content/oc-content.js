@@ -8,11 +8,8 @@ class OcContentController {
   constructor($scope, MyServiceStore) {
     autorun($scope,
     ()=>{
-        this.tweets = MyServiceStore.tweets;
-        this.tweetQuery = MyServiceStore.tweetQuery;
-        this.title = MyServiceStore.title;
-        console.log(this.tweetQuery);
-
+        this.youtubes = MyServiceStore.youtubes;
+        this.youtubeQuery = MyServiceStore.youtubeQuery;        
     })
   }
 

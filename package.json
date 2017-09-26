@@ -26,9 +26,9 @@
   "author": "Omer Cohen <ooo.omer.ooo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nirkaufman/angular-webpack-starter/issues"
+    "url": "https://github.com/OmerTLC/oc-ng-youtube/issues"
   },
-  "homepage": "https://github.com/nirkaufman/angular-webpack-starter",
+  "homepage": "https://github.com/OmerTLC/oc-ng-youtube",
   "devDependencies": {
     "babel-core": "5.8.20",
     "babel-eslint": "^7.2.3",
